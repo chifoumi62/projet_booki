@@ -1,12 +1,5 @@
 /****** General ***********/
 
-
-.raleway-<raleway> {
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: <100>;
-  font-style: normal;
-}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -31,7 +24,37 @@ a:hover {
 * {
     font-family: 'Raleway', sans-serif;
 }
-
+h1 {
+    font-size: 20px;
+}
+.container_1 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 20px 0;
+    border: white 2px none;
+    border-radius: 20px;
+}
+.icone {
+    border: black 2px none;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+.encart {
+    border: 0px;
+    padding: 20px;
+}
+.btn {
+    border: 0px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #0065FC;
+    padding: 20px;
+}
+.btn1 {
+    font-size: 20px;
+    color: white;
+}
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
