@@ -147,7 +147,6 @@ a {
 
 .card2{
     background-color: white;
-    width: 110%;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -180,7 +179,7 @@ a {
     margin: 2px;
 }
 .card3 {
-    width: 100%;
+    width: 240px;
     height: 350px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }   
@@ -189,7 +188,7 @@ a {
     margin: 20px;
 }
 .card3-img {
-    width: 240px;
+    width: 100%;
     height: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -228,14 +227,14 @@ a {
     padding-left: 25px;
 }
 
-.hebergements-cards , .activites-cards {
+.hebergements-cards  {
     display: flex;
     flex-direction: row;
     justify-items: flex-start;
     justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
-    box-sizing: border-box;
+    width: 100%;
 }
 .hebergements-cards img {
     width: 100%;
@@ -300,7 +299,8 @@ a {
 .activites-cards {
     width: 100%;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+    justify-content: space-between;  
 }
 .activites-cards img {
     width: 100%;
@@ -383,7 +383,7 @@ footer {
     }
 
     .card2{
-        width: 220px;
+        width: 100%;
         height: 90%;
     }
 
@@ -403,7 +403,6 @@ footer {
     .card3-img {
         width: 190px;
         height: 200px;
-        overflow: hidden;
     }
     .card3 {
         height: auto;
@@ -419,7 +418,7 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     body {
-        margin: 180px;
+        margin: 50px;
     }
     .container_header {
         display: flex;
@@ -442,9 +441,11 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
     }
     .container_2_1 , .container_2 {
         gap: 0px;
+        width: 100%;
     }
     .container_2 h2 {
         margin: 0px;
@@ -453,10 +454,17 @@ footer {
         display: flex;
         flex-direction: column-reverse;
     }
+    .hebergements {
+        margin-top: 40px;
+    }
     .hebergements-cards {
         display: flex;
         flex-direction: column;
     }
+    .hebergements-cards a {
+        width: 100%;
+    }
+    
     .populaires-cards {
         display: flex;
         flex-direction: column;
