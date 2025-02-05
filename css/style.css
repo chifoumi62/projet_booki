@@ -2,8 +2,6 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 0;
     margin-right: 20px;
 }
@@ -34,14 +32,11 @@ h1 {
 }
 .container_1 {
     display: flex;
-    justify-content:flex-start;
-    align-items: center;
     padding: 20px 0;
     border: white 2px none;
     border-radius: 20px;
 }
 .icone {
-    border: black 2px none;
     border-radius: 20px 0px 0px 20px;
     background-color: #F2F2F2;
     padding: 10px;
@@ -65,14 +60,12 @@ h1 {
 }
 .container_2_1 , .container_2{
     display: flex;
-    justify-content: flex-start;
     gap: 20px;
     align-items: center;
     padding: 20px 0;
 }
 .container_2_10 , .container_2_11 {
     display: flex;
-    justify-content: space-between ;
     gap: 15px;
 }
 .btn2:hover { 
@@ -80,7 +73,6 @@ h1 {
 }
 .btn2   {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 20px;
     width: 150px;
@@ -148,7 +140,7 @@ a {
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 100%;
-    height: 220px;
+    height: 230px;
 }
 
 .card img, .card2 img, .card3 img {
@@ -161,7 +153,8 @@ a {
 .card2-content {
     display: flex;
     flex-direction: column;
-    padding-right: 80px;
+    width: 100%;
+    padding-right: 70px;
 }
 
 .card2-title {
@@ -225,14 +218,12 @@ a {
     width: 65%; 
 }
 
-.hebergements-title {
-    width: 100%;
+.hebergements-title {  
     padding-left: 25px;
 }
 
 .hebergements-cards  {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin-top: 33px;
 
@@ -294,13 +285,10 @@ a {
 .activites {
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-top: 40px;
 }
 .activites-cards {
-    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;  
 }
 .activites-cards img {
@@ -321,15 +309,12 @@ footer {
 .footer-nav{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     font-size: 12px;
 }
 .footer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 100%;
-    height: auto;
     padding: 20px;
 }
 .lien-footer-nav {
@@ -460,10 +445,12 @@ footer {
     }
     .hebergements {
         margin-top: 40px;
+        max-width: 350px;
     }
     .hebergements-cards {
         display: flex;
         flex-direction: column;
+        max-width: 300px;
     }
     .hebergements-cards ,.hebergements-cards a {
         width: 100%;
@@ -472,6 +459,10 @@ footer {
         display: flex;
         flex-direction: column;
         height:100%;
+        max-width: 300px;
+    }
+    .populaires{
+        max-width: 350px;
     }
     .card-content {
         display: flex;
@@ -485,6 +476,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
+        max-width: 300px;
     }
     .activites-cards a {
         width: 62%;
